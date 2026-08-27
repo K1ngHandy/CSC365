@@ -92,3 +92,31 @@ if(flag==True):
     print("Palindrome")
 else:
     print("! Palindrome")
+
+# Quadratic formula
+# a=1
+# b=-1
+# c=-2
+
+# x1=(((-1)*b)+((b**2)-(4*a*c))**0.5)/(2*a)
+# x2=(((-1)*b)-((b**2)-(4*a*c))**0.5)/(2*a)
+# print(x1, x2)
+
+# a=int(input("What is a?"))
+# b=int(input("What is b?"))
+# c=int(input("What is c?"))
+
+# x1=(((-1)*b)+((b**2)-(4*a*c))**0.5)/(2*a)
+# x2=(((-1)*b)-((b**2)-(4*a*c))**0.5)/(2*a)
+# print(x1, x2)
+
+# print("\n")
+
+# name=input("What is your name?")
+# print(name)
+
+# print("\n")
+
+# Extract middle symbol of name with unknown length
+name=input("What is your name?")
+print(name[len(name)//2])
