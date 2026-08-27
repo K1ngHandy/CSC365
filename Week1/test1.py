@@ -37,21 +37,21 @@
 # print(name[0],name[1],name[2],name[3],sep="")
 # print(name[3],name[2],name[1],name[0],sep="*")
 
-word="given"
-for i in range(1, 5):
-    print("*", end="")
+# word="given"
+# for i in range(1, 5):
+#     print("*", end="")
 
-print("\n")
+# print("\n")
 
-for i in range(5):
-    print(".",end="")
+# for i in range(5):
+#     print(".",end="")
 
-print("\n")
+# print("\n")
 
-for i in range(1,10,2):
-    print(i,end="")
+# for i in range(1,10,2):
+#     print(i,end="")
 
-print("\n")
+# print("\n")
 
 # name="Chester"
 # d=len(name)
@@ -64,10 +64,31 @@ print("\n")
 
 # print("\n")
 
-name="Chester"
-d=len(name)
-# print(d)
-for m in range(len(name)-1,-1,-1):
-    print(name[m])
+# name="Chester"
+# d=len(name)
+# # print(d)
+# for m in range(len(name)-1,-1,-1):
+#     print(name[m])
 
-print("\n")
+# print("\n")
+
+# Palindrome check
+# name="abba"
+# if(name[0]==name[3] and name[1]==name[2]):
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
+
+# Palindrome check with unknown length
+unknownLen="racecar"
+d=len(unknownLen)
+flag=True
+
+for m in range(0,d):
+    if(unknownLen[m] != unknownLen[d-1-m]):
+        flag=False
+
+if(flag==True):
+    print("Palindrome")
+else:
+    print("! Palindrome")
