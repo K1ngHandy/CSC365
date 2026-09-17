@@ -48,4 +48,6 @@ Some scripts display charts and require a graphical environment. Several exercis
 
 ## Notes
 
-This repository contains class notes, experiments, and homework solutions. Some files include commented-out examples from earlier lessons and may require small adjustments before being reused with different data.
+This repository contains class notes, experiments, and homework solutions. Some files include commented-out examples from earlier lessons and may require small adjustments before being reused with different datasets or environments.
+
+**Some code in this repository is incomplete and may require additional implementation or revision before it runs as expected.**
