@@ -7,7 +7,7 @@
 # plt.scatter(x, y)
 # plt.show()
 
-# #
+#
 # import numpy as np
 # import matplotlib.pyplot as plt
 
@@ -26,7 +26,7 @@
 # plt.ylabel("Purchase Amount")
 # plt.show()
 
-# #
+#
 # trainX = pageSpeeds[:80]
 # testX = pageSpeeds[80:]
 
@@ -36,7 +36,7 @@
 # plt.scatter(trainX, trainY)
 # plt.show()
 
-# #
+#
 # x = np.array(trainX)
 # y = np.array(trainY)
 # p4 = np.poly1d(np.polyfit(x, y, 4))
@@ -49,7 +49,7 @@
 # plt.plot(xp, p4(xp), c = 'r')
 # plt.show()
 
-# #
+#
 # import numpy as np
 # import matplotlib.pyplot as plt
 
@@ -75,7 +75,7 @@
 # plt.ylabel("Exam Score")
 # plt.show()
 
-# #
+#
 # import padas as pd
 # import matplotlib.pyplot as plt
 # import requests
@@ -106,7 +106,7 @@
 # plt.ylabel("Number of Bikes")
 # plt.show()
 
-# #
+#
 # features = ['season', 'holiday', 'workingday', 'temp', 'humidity', 'windspeed']
 # X = df[features]
 # y = df['count']
